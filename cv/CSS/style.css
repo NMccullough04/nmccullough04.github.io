@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    color: rgb(47, 47, 47);
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+p {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 1px 20px 1px 20px;
+    background-color: rgb(15, 24, 105);
+    color: white;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    height: 44vh;
+    padding: 30px;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border: 10px black;
+        border-radius: 20%;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.793);
+    }
+
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 40px;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    border-radius: 5px;
+}
+
+.info {
+    margin: 0 15vw;
+    font-family: "roboto", sans-serif;
+
+    ul {
+        list-style-type: square; /* Changes bullet to a square */
+    }
+
+    dl {
+        display: grid; 
+    }
+
+    a {
+        color: rgb(47, 47, 47);
+    }
+    a:visited {
+        color: rgb(47, 47, 47);
+    }
+    a:hover {
+        color:lime;
+    }
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 0;
+    width:400px;
+    border-radius: 10%;
+    background-color: rgb(168, 177, 255);
+    color:white;
+    font-family: "roboto", sans-serif;
+    input {
+        border-radius: 4px;
+    }
+    textarea {
+        border-radius: 4px;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10%;
+    border: 3px solid rgb(15, 24, 105);
+    background-color: rgb(206, 206, 206);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+    img {
+        max-width: 50%;
+        max-height: 50%;
+        object-fit: contain;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    a {
+        margin: 0 20px;
+    }
+}
+
+.logo {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:lime;
+}
+
